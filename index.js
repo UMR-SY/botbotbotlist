@@ -14,7 +14,7 @@ client.tags = require('html-tags');
 client.ayarlar = {
   "prefix": "xs+",
   "oauthSecret": "oauthSecret KEY BURAYA ",
-	"callbackURL": "CALLBACK URL BURAYA",
+	"callbackURL":  "https://clear-sundae.glitch.me/CALLBACK",
 	"kayıt": "543919559569309698",
   "rapor": "543919559569309698",
   "renk": "#D49818"
@@ -22,11 +22,11 @@ client.ayarlar = {
 
 
 
-client.yetkililer = ["441169716547944448"]
-client.webyetkililer = ["441169716547944448"]
-client.sunucuyetkililer = ["441169716547944448"]
-client.yetkililer = ["441169716547944448"]
-client.webyetkililer = ["441169716547944448"]
+client.yetkililer = ["320873010972196879"]
+client.webyetkililer = ["320873010972196879"]
+client.sunucuyetkililer = ["320873010972196879"]
+client.yetkililer = ["320873010972196879"]
+client.webyetkililer = ["320873010972196879"]
 
 client.on('ready', async () => {
   client.appInfo = await client.fetchApplication();
@@ -112,6 +112,6 @@ client.on("message", async message => {
 });
 
 
-client.login("TOKEN BURAYA")
+client.login("NTcwNzA0NDQ2OTU1MzIzNDIx.XMDEhQ.7-cMl9B4IRDsuGMSqOg63rSjJ8c")
 process.env = {}
-process.env.TOKEN = "TOKEN BURAYA";   
+process.env.TOKEN = "NTcwNzA0NDQ2OTU1MzIzNDIx.XMDEhQ.7-cMl9B4IRDsuGMSqOg63rSjJ8c";   
