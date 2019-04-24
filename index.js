@@ -12,9 +12,9 @@ client.tags = require('html-tags');
 
 
 client.ayarlar = {
-  "prefix": "xs+",
-  "oauthSecret": "oauthSecret KEY BURAYA ",
-	"callbackURL":  "https://clear-sundae.glitch.me/CALLBACK",
+  "prefix": "/",
+  "oauthSecret": "sONi3w48NvGhYx5DV7x5VEIQ4US2j7yH",
+	"callbackURL":  "https://clear-sundae.glitch.me/callback",
 	"kayıt": "543919559569309698",
   "rapor": "543919559569309698",
   "renk": "#D49818"
@@ -34,7 +34,7 @@ client.on('ready', async () => {
     client.appInfo = await client.fetchApplication();
   }, 60000);
   require("./app.js")(client);
-  client.user.setActivity(`Staff Bot XiR`, { type:"PLAYING" })
+  client.user.setActivity(`/yardım`, { type:"PLAYING" })
   console.log(`Şu an ${client.channels.size} kanala, ${client.guilds.size} sunucuya ve ${client.users.size} kullanıcıya hizmet veriyorum!`)
 });
 
