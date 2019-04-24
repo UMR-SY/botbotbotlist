@@ -1,6 +1,6 @@
 body {
   font-family: 'Poppins', sans-serif;
-	background: #23272A;
+	background: #fff;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,600');
@@ -37,13 +37,13 @@ h6:link, h6:visited {
 }
 
 .topnav a:hover {
-	background-color: #D49818;
+	background-color: #f12ad3;
 	color: white;
 }
 
 
 .active {
-	background-color: #D49818;
+	background-color: #f12ad3;
 	color: white;
 }
 
@@ -146,7 +146,7 @@ input[type=text], input[type=url] {
     box-sizing: border-box;
     border: none;
     font-size: 12px;
-    border-bottom: 2px solid #D49818;
+    border-bottom: 2px solid #f12ad3;
     border-radius: 4px;
     background-color: #2A2929;
     color: #fff;
@@ -159,14 +159,14 @@ textarea {
     margin: 8px 0;
     box-sizing: border-box;
     border: none;
-    border-bottom: 2px solid #D49818;
+    border-bottom: 2px solid #f12ad3;
     border-radius: 4px;
     background-color: #2A2929;
     color: #fff;
 }
 
 .select-style {
-    border: 1px solid #D49818;
+    border: 1px solid #f12ad3;
     width: 30%;
     height:40px;
     border-radius: 2px;
@@ -197,7 +197,7 @@ select {
     white-space: pre;
     -webkit-rtl-ordering: logical;
     color: white;
-    background-color: #D49818;
+    background-color: #f12ad3;
     cursor: default;
     border-width: 1px;
     border-style: solid;
@@ -439,8 +439,8 @@ border-radius:15px;
     padding: 0.2rem 1rem;
 }
 .btn-warning {
-  background-color:#D49818;
-  border-color:#D49818;
+  background-color:#f12ad3;
+  border-color:#f12ad3;
 }
 .badge-success {
  background-color:green;
