@@ -12,21 +12,21 @@ client.tags = require('html-tags');
 
 
 client.ayarlar = {
-  "prefix": "/",
-  "oauthSecret": "sONi3w48NvGhYx5DV7x5VEIQ4US2j7yH",
-	"callbackURL":  "https://rmbotlist.glitch.me/callback",
-	"kayıt": "543919559569309698",
-  "rapor": "543919559569309698",
-  "renk": "#f12ad3"
+  "prefix": "",
+  "oauthSecret": "",
+	"callbackURL":  "", //callback kalcak
+	"kayıt": "",
+  "rapor": "",
+  "renk": "#D49818"
 };
 
 
 
-client.yetkililer = ["320873010972196879"]
-client.webyetkililer = ["320873010972196879"]
-client.sunucuyetkililer = ["320873010972196879"]
-client.yetkililer = ["320873010972196879"]
-client.webyetkililer = ["320873010972196879"]
+client.yetkililer = [""]
+client.webyetkililer = [""]
+client.sunucuyetkililer = [""]
+client.yetkililer = [""]
+client.webyetkililer = [""]
 
 client.on('ready', async () => {
   client.appInfo = await client.fetchApplication();
