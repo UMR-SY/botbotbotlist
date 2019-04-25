@@ -14,10 +14,10 @@ client.tags = require('html-tags');
 client.ayarlar = {
   "prefix": "/",
   "oauthSecret": "sONi3w48NvGhYx5DV7x5VEIQ4US2j7yH",
-	"callbackURL":  "https://clear-sundae.glitch.me/callback",
+	"callbackURL":  "https://rmbotlist.glitch.me/callback",
 	"kayıt": "543919559569309698",
   "rapor": "543919559569309698",
-  "renk": "#D49818"
+  "renk": "#f12ad3"
 };
 
 
