@@ -320,7 +320,7 @@ db.set(`botlar.${ID}.destek`, ayar['botdestek'])
 
 res.redirect("/kullanici/"+req.params.userID);
 let id = req.params.botID
-client.channels.get(client.ayarlar.kayıt).send(`<@${req.user.id}> adlı kullanıcı \`${sistem.id}\` ID'ye sahip \`${sistem.username}#${sistem.discriminator}\` adlı botunun başvurusunu&profilini düzenledi. ${edit}\nhttps://xirbot.glitch.me/bot/${db.fetch(`botlar.${id}.id`)}`)
+client.channels.get(client.ayarlar.kayıt).send(`<@${req.user.id}> adlı kullanıcı \`${sistem.id}\` ID'ye sahip \`${sistem.username}#${sistem.discriminator}\` adlı botunun başvurusunu&profilini düzenledi. ${edit}\nhttps://rmbotlist.glitch.me/bot/${db.fetch(`botlar.${id}.id`)}`)
 var edit = client.emojis.get("566200909470629889")
 
 if (client.users.has(req.user.id) === true) {
@@ -437,10 +437,10 @@ db.set(`botlar.${id}.durum`, 'Onaylı')
 
 res.redirect("/yetkili")
 
-client.channels.get(client.ayarlar.kayıt).send(`<@${req.user.id} adlı yetkili tarafından <@${db.fetch(`botlar.${id}.sahipid`)}> adlı kullanıcının \`${db.fetch(`botlar.${id}.id`)}\` ID'ine sahip \`${db.fetch(`botlar.${id}.isim`)}\` adlı botu onaylandı.\nhttps://xirbot.glitch.me/bot/${db.fetch(`botlar.${id}.id`)}`)
+client.channels.get(client.ayarlar.kayıt).send(`<@${req.user.id} adlı yetkili tarafından <@${db.fetch(`botlar.${id}.sahipid`)}> adlı kullanıcının \`${db.fetch(`botlar.${id}.id`)}\` ID'ine sahip \`${db.fetch(`botlar.${id}.isim`)}\` adlı botu onaylandı.\nhttps://rmbotlist.glitch.me/bot/${db.fetch(`botlar.${id}.id`)}`)
 
 if (client.users.has(db.fetch(`botlar.${id}.sahipid`)) === true) {
-client.users.get(db.fetch(`botlar.${id}.sahipid`)).send(`:tada: \`${db.fetch(`botlar.${id}.isim`)}\` adlı botunuz onaylandı.\nhttps://xirbot.glitch.me/bot/${db.fetch(`botlar.${id}.id`)}`)
+client.users.get(db.fetch(`botlar.${id}.sahipid`)).send(`:tada: \`${db.fetch(`botlar.${id}.isim`)}\` adlı botunuz onaylandı.\nhttps://rmbotlist.glitch.me/bot/${db.fetch(`botlar.${id}.id`)}`)
 }
 
 });

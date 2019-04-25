@@ -7,7 +7,7 @@ exports.run = async (client, msg, args) => {
     if(!args[0]) {
       return msg.channel.send(new Discord.RichEmbed().setDescription('Lütfen bir bot ID\'i giriniz!').setColor("RED"))
     }
-    request(`https://xirbot.glitch.me/bot/${args[0]}`, function (error, response, body) {
+    request(`https://rmbotlist.glitch.me/bot/${args[0]}`, function (error, response, body) {
     if (error) return msg.channel.send('Hata:', error);
     else if (!error) {
       var a = db.fetch(`botlar.${args[0]}.isim`)
@@ -37,7 +37,7 @@ exports.run = async (client, msg, args) => {
       var n = JSON.parse(body).oy_sayisi
     }
       
-      request(`https://xirbot.glitch.me/bot`, function (errorr, responsee, bodyy) {
+      request(`https://rmbotlist.glitch.me/bot`, function (errorr, responsee, bodyy) {
     if (errorr) return msg.channel.send('Hata:', errorr);
     else if (!errorr) {
     if (bodyy.includes(args[0])=== false) return msg.reply("Bu ID'de bir bot sistemde bulunmamaktadır!")
