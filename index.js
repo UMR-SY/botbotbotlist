@@ -12,8 +12,8 @@ client.tags = require('html-tags');
 
 
 client.ayarlar = {
-  "prefix": "",
-  "oauthSecret": "",
+  "prefix": "/", //isteğe bağlı ama zorunlu
+  "oauthSecret": "IFIZpJg9Fjj9xj9INo528zbi8ORSnCv8",
 	"callbackURL":  "", //callback kalcak
 	"kayıt": "",
   "rapor": "",
@@ -55,7 +55,7 @@ setInterval(() => {
 }, 10000);
 
 client.on("guildMemberAdd", member => {
-  if (member.user.bot) return member.addRole(member.guild.roles.find(r=>r.name==='🤖| Other Bots').id)
+  if (member.user.bot) return member.addRole(member.guild.roles.find(r=>r.name==='Eklenmiş Bot').id)
 });
 
 client.commands = new Discord.Collection();
