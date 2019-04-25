@@ -14,19 +14,19 @@ client.tags = require('html-tags');
 client.ayarlar = {
   "prefix": "/", //isteğe bağlı ama zorunlu
   "oauthSecret": "IFIZpJg9Fjj9xj9INo528zbi8ORSnCv8",
-	"callbackURL":  "", //callback kalcak
-	"kayıt": "",
-  "rapor": "",
+	"callbackURL":  "https://rmbotlist.glitch.me/callback", //callback kalcak
+	"kayıt": "571100948643053609",
+  "rapor": "571100948643053609",
   "renk": "#D49818"
 };
 
 
 
-client.yetkililer = [""]
-client.webyetkililer = [""]
-client.sunucuyetkililer = [""]
-client.yetkililer = [""]
-client.webyetkililer = [""]
+client.yetkililer = ["320873010972196879"] //hepsine koymanız lazım
+client.webyetkililer = ["320873010972196879"]
+client.sunucuyetkililer = ["320873010972196879"]
+client.yetkililer = ["320873010972196879"]
+client.webyetkililer = ["320873010972196879"]
 
 client.on('ready', async () => {
   client.appInfo = await client.fetchApplication();
@@ -112,6 +112,6 @@ client.on("message", async message => {
 });
 
 
-client.login("NTcwNzA0NDQ2OTU1MzIzNDIx.XMDEhQ.7-cMl9B4IRDsuGMSqOg63rSjJ8c")
+client.login("NTcxMTAzMjQ2NDI5NTg1NDE4.XMI5pg.I3g-0JuxEOpSax0laN1-tbyqO9A") //buraya tokeniniz
 process.env = {}
-process.env.TOKEN = "NTcwNzA0NDQ2OTU1MzIzNDIx.XMDEhQ.7-cMl9B4IRDsuGMSqOg63rSjJ8c";   
+process.env.TOKEN = "NTcxMTAzMjQ2NDI5NTg1NDE4.XMI5pg.I3g-0JuxEOpSax0laN1-tbyqO9A";   //burayada token
