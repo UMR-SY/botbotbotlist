@@ -52,7 +52,7 @@
                 </div>  
   </div>
   <br>
-<center><p style="font-size:30px;color:white;">Bot Açıklaması</p></center>
+<center><p style="font-size:30px;color:black;">Bot Açıklaması</p></center>
   <div class="uzunaciklama" class="jimbotron" align="center"><br>
     <% if (bot.ayar.has(`botlar.${id}.uzunaciklama`) || bot.ayar.fetch(`botlar.${id}.uzunaciklama`) !== undefined || bot.ayar.fetch(`botlar.${id}.uzunaciklama`) !== null) { %>
 <% var xx %>
@@ -79,7 +79,7 @@
         
         </div><br>
           <div class="post-actions">
-           <center><p style="font-size:30px;color:white;">Etiketler</p></center>
+           <center><p style="font-size:30px;color:blue;">Etiketler</p></center>
                   <div class="post-tags">
                     <div align="center">
                       <%if(Array.isArray(bot.ayar.fetch(`botlar.${id}.etiket`)) === false) {%>
