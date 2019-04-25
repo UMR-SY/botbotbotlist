@@ -12,21 +12,21 @@ client.tags = require('html-tags');
 
 
 client.ayarlar = {
-  "prefix": "/", //isteğe bağlı ama zorunlu
-  "oauthSecret": "IFIZpJg9Fjj9xj9INo528zbi8ORSnCv8",
-	"callbackURL":  "https://rmbotlist.glitch.me/callback", //callback kalcak
-	"kayıt": "571100948643053609",
-  "rapor": "571100948643053609",
+  "prefix": "",
+  "oauthSecret": "",
+	"callbackURL":  "/callback",
+	"kayıt": "",
+  "rapor": "",
   "renk": "#D49818"
 };
 
 
 
-client.yetkililer = ["320873010972196879"] //hepsine koymanız lazım
-client.webyetkililer = ["320873010972196879"]
-client.sunucuyetkililer = ["320873010972196879"]
-client.yetkililer = ["320873010972196879"]
-client.webyetkililer = ["320873010972196879"]
+client.yetkililer = [""]
+client.webyetkililer = [""]
+client.sunucuyetkililer = [""]
+client.yetkililer = [""]
+client.webyetkililer = [""]
 
 client.on('ready', async () => {
   client.appInfo = await client.fetchApplication();
@@ -55,7 +55,7 @@ setInterval(() => {
 }, 10000);
 
 client.on("guildMemberAdd", member => {
-  if (member.user.bot) return member.addRole(member.guild.roles.find(r=>r.name==='Eklenmiş Bot').id)
+  if (member.user.bot) return member.addRole(member.guild.roles.find(r=>r.name==='🤖| Other Bots').id)
 });
 
 client.commands = new Discord.Collection();
@@ -112,6 +112,6 @@ client.on("message", async message => {
 });
 
 
-client.login("NTcxMTAzMjQ2NDI5NTg1NDE4.XMI5pg.I3g-0JuxEOpSax0laN1-tbyqO9A") //buraya tokeniniz
+client.login("")
 process.env = {}
-process.env.TOKEN = "NTcxMTAzMjQ2NDI5NTg1NDE4.XMI5pg.I3g-0JuxEOpSax0laN1-tbyqO9A";   //burayada token
+process.env.TOKEN = "";   
