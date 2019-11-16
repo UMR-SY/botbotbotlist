@@ -12,21 +12,23 @@ client.tags = require('html-tags');
 
 
 client.ayarlar = {
-  "prefix": "",
-  "oauthSecret": "",
-	"callbackURL":  "/callback",
-	"kayıt": "",
-  "rapor": "",
-  "renk": "#D49818"
+  "prefix": "",// Botun Prefix1
+  "oauthSecret": "",// Botun Secreti
+	"callbackURL":  "/callback",// siteismi.glitch.me/callback şeklinde olucak
+	"kayıt": "",// Kayıt kanalının id si
+  "rapor": "",// Rapor kanalının id si
+  "renk": "#D49818"// bunu neden ekledim bende bilmiyorum isterseniz değiştirin
 };
+client.login("")// Token
+process.env = {}
+process.env.TOKEN = "";// Token
 
 
-
-client.yetkililer = [""]
-client.webyetkililer = [""]
-client.sunucuyetkililer = [""]
-client.yetkililer = [""]
-client.webyetkililer = [""]
+client.yetkililer = [""]// Yetkililer
+client.webyetkililer = [""]// Yetkililer
+client.sunucuyetkililer = [""]// Yetkililer
+client.yetkililer = [""]// Yetkililer
+client.webyetkililer = [""]// Yetkililer
 
 client.on('ready', async () => {
   client.appInfo = await client.fetchApplication();
@@ -109,9 +111,4 @@ client.on("message", async message => {
 				message.channel.send("Bu komutu özel mesajlarda kullanamazsın.")
 		}
 		cmd.run(client, message, args)
-});
-
-
-client.login("")
-process.env = {}
-process.env.TOKEN = "";   
+}); 
