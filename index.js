@@ -14,9 +14,9 @@ client.tags = require('html-tags');
 client.ayarlar = {
   "prefix": "-",// Botun Prefix1
   "oauthSecret": "Fsv7EouDfnLiRNXW4t7sgtnJBv32KAtW",// Botun Secreti
-	"callbackURL":  "/callback",// siteismi.glitch.me/callback şeklinde olucak
-	"kayıt": "",// Kayıt kanalının id si
-  "rapor": "",// Rapor kanalının id si
+	"callbackURL":  "http://list.hyprexbotlist.ml/callback",// siteismi.glitch.me/callback şeklinde olucak
+	"kayıt": "755105588567867504",// Kayıt kanalının id si
+  "rapor": "755105588567867504",// Rapor kanalının id si
   "renk": "#D49818"// bunu neden ekledim bende bilmiyorum isterseniz değiştirin
 };
 client.login("NzU2OTU4NjgyODc2NjA4Njk0.X2ZatQ.d6LtnNyV4TqtRpOwJwUwjwA28EY")// Token
