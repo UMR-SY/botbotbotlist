@@ -18,7 +18,7 @@
      <div align="center" class="card-img">
          <a href="/bot/<%=idd%>"><img src="<%=bot.ayar.fetch(`botlar.${idd}.avatar`)%>" class="card-img-top" alt="Bot Avatar"></a>
        <% if (bot.ayar.has(`botlar.${idd}.sertifika`) === true) { %>
-       <br><br><a style="color:darkorange"><img src="https://i.postimg.cc/SxFNhhJS/xir-sertifika.png" width="30px" height="30px"> Sertifikalı</a><br>
+       <br><br><a style="color:black"><img> src="https://cdn.discordapp.com/attachments/755105588567867504/757166534639484968/sertfika.png" width="60px" height="30px"> Sertifikalı</a><br>
        <% } %>
 
       <%  if(bot.ayar.fetch(`botlar.${idd}.durum`) === 'Beklemede' || !bot.ayar.has(`botlar.${idd}.durum`)) { %>
