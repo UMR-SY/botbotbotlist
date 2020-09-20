@@ -437,10 +437,10 @@ db.set(`botlar.${id}.durum`, 'Onaylı')
 
 res.redirect("/yetkili")
 
-client.channels.get(client.ayarlar.kayıt).send(`<@${req.user.id} adlı yetkili tarafından <@${db.fetch(`botlar.${id}.sahipid`)}> adlı kullanıcının \`${db.fetch(`botlar.${id}.id`)}\` ID'ine sahip \`${db.fetch(`botlar.${id}.isim`)}\` adlı botu onaylandı.\nhttps://rmbotlist.glitch.me/bot/${db.fetch(`botlar.${id}.id`)}`)
+client.channels.get(client.ayarlar.kayıt).send(`<@${req.user.id} adlı yetkili tarafından <@${db.fetch(`botlar.${id}.sahipid`)}> adlı kullanıcının \`${db.fetch(`botlar.${id}.id`)}\` ID'ine sahip \`${db.fetch(`botlar.${id}.isim`)}\` adlı botu onaylandı.\nhttp://list.hyprexbotlist.ml/bot/${db.fetch(`botlar.${id}.id`)}`)
 
 if (client.users.has(db.fetch(`botlar.${id}.sahipid`)) === true) {
-client.users.get(db.fetch(`botlar.${id}.sahipid`)).send(`:tada: \`${db.fetch(`botlar.${id}.isim`)}\` adlı botunuz onaylandı.\nhttps://rmbotlist.glitch.me/bot/${db.fetch(`botlar.${id}.id`)}`)
+client.users.get(db.fetch(`botlar.${id}.sahipid`)).send(`:tada: \`${db.fetch(`botlar.${id}.isim`)}\` adlı botunuz onaylandı.\nhttp://list.hyprexbotlist.ml/bot/${db.fetch(`botlar.${id}.id`)}`)
 }
 
 });
