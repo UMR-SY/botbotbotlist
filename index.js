@@ -12,7 +12,7 @@ client.tags = require('html-tags');
 
 
 client.ayarlar = {
-  "prefix": "-",// Botun Prefix1
+  "prefix": "/",// Botun Prefix1
   "oauthSecret": "Fsv7EouDfnLiRNXW4t7sgtnJBv32KAtW",// Botun Secreti
 	"callbackURL":  "http://list.hyprexbotlist.ml/callback",// siteismi.glitch.me/callback şeklinde olucak
 	"kayıt": "755105588567867504",// Kayıt kanalının id si
@@ -36,7 +36,7 @@ client.on('ready', async () => {
     client.appInfo = await client.fetchApplication();
   }, 60000);
   require("./app.js")(client);
-  client.user.setActivity(`/yardım`, { type:"PLAYING" })
+  client.user.setActivity(`Bot List`, { type:"PLAYING" })
   console.log(`Şu an ${client.channels.size} kanala, ${client.guilds.size} sunucuya ve ${client.users.size} kullanıcıya hizmet veriyorum!`)
 });
 
