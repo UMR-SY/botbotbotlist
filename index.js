@@ -13,15 +13,15 @@ client.tags = require('html-tags');
 
 client.ayarlar = {
   "prefix": "/",// Botun Prefix1
-  "oauthSecret": "Fsv7EouDfnLiRNXW4t7sgtnJBv32KAtW",// Botun Secreti
-	"callbackURL":  "http://list.hyprexbotlist.ml/callback",// siteismi.glitch.me/callback şeklinde olucak
+  "oauthSecret": "KrndGEt4mHtqrGL_7mGeqcnl8Yq6JWww",// Botun Secreti
+	"callbackURL":  "http://tr.doxybotlist.tk/callback",// siteismi.glitch.me/callback şeklinde olucak
 	"kayıt": "755105588567867504",// Kayıt kanalının id si
   "rapor": "755105588567867504",// Rapor kanalının id si
   "renk": "#D49818"// bunu neden ekledim bende bilmiyorum isterseniz değiştirin
 };
-client.login("NzU2OTU4NjgyODc2NjA4Njk0.X2ZatQ.d6LtnNyV4TqtRpOwJwUwjwA28EY")// Token
+client.login("NzU2OTU4NjgyODc2NjA4Njk0.X2ZatQ.kVKr4juWrj1rfGDDFfWacs4wtaI")// Token
 process.env = {}
-process.env.TOKEN = "NzU2OTU4NjgyODc2NjA4Njk0.X2ZatQ.d6LtnNyV4TqtRpOwJwUwjwA28EY";// Token
+process.env.TOKEN = "NzU2OTU4NjgyODc2NjA4Njk0.X2ZatQ.kVKr4juWrj1rfGDDFfWacs4wtaI";// Token
 
 
 client.yetkililer = ["333636600032526347"]// Yetkililer
