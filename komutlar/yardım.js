@@ -3,7 +3,7 @@ const Discord = require('discord.js');
 exports.run = async (client, message, args) => {
   var embed = new Discord.RichEmbed()
   .setColor('RED')
-  .setAuthor("Nemesis", client.user.avatarURL)  // "" 2 li tırnak yerine Bot ismi yada sunucu ismi
+  .setAuthor("Doxy", client.user.avatarURL)  // "" 2 li tırnak yerine Bot ismi yada sunucu ismi
 	.setDescription(`
 
 **Bot nasıl ekleyeceğim?**\n[Buraya tıklayarak](https://rmbotlist.glitch.me/botekle) bot ekleyebileceğiniz yere ışınlanabilirsiniz.
