@@ -19,9 +19,9 @@ client.ayarlar = {
   "rapor": "756149142320971889",// Rapor kanalının id si
   "renk": "#D49818"// bunu neden ekledim bende bilmiyorum isterseniz değiştirin
 };
-client.login("TOKEN")// Token
+client.login("NzU2Nzc3MTQ0MjkzNTIzNTE3.X2Wxow.qktbvEx6LyqkIAUIbIZmhSU3H8s")// Token
 process.env = {}
-process.env.TOKEN = "TAŞAKLI TOKEN";// Token
+process.env.TOKEN = "NzU2Nzc3MTQ0MjkzNTIzNTE3.X2Wxow.qktbvEx6LyqkIAUIbIZmhSU3H8s";// Token
 
 
 client.yetkililer = ["333636600032526347"]// Yetkililer
