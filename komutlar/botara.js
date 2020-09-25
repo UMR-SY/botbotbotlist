@@ -21,7 +21,7 @@ exports.run = async (client, msg, args) => {
         var i = 'Belirtilmemiş'
       } else {
         var i = `[${a} Destek Sunucusu](${JSON.parse(body).destek_sunucusu})`
-      }
+      }//hyprex
       if(JSON.parse(body).web_sitesi === 'Belirtilmemiş') {
         var j = 'Belirtilmemiş'
       } else {
@@ -50,7 +50,7 @@ exports.run = async (client, msg, args) => {
     .setTitle(`XiR - Bot Arama`)
     .setDescription(`${a} (${b}) [${n} oy]`, c)
     .addField('Prefix', d)
-    .addField('Sahip', f)
+    .addField('Sahip',)
     .addField('Kısa Açıklama', g)
     .addField('Etiketler', h)
     .addField('Sertifika', l)

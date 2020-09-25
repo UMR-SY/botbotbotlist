@@ -1,12 +1,12 @@
-const Discord = require('discord.js');
+const Discord = require('discord.js');//hyprex
 
-exports.run = async (client, message, args) => {
+exports.run = async (client, message, args) => {//hyprex
   var embed = new Discord.RichEmbed()
   .setColor('RED')
   .setAuthor("Doxy", client.user.avatarURL)  // "" 2 li tırnak yerine Bot ismi yada sunucu ismi
 	.setDescription(`
 
-**Bot nasıl ekleyeceğim?**\n[Buraya tıklayarak](https://rmbotlist.glitch.me/botekle) bot ekleyebileceğiniz yere ışınlanabilirsiniz.
+**Bot nasıl ekleyeceğim?**\n[Buraya tıklayarak](https://rmbotlist.glitch.me/botekle) bot ekleyebileceğiniz yere ışınlanabilirsiniz.//hyprex
 
 **Sistemdeki tüm botları nereden görebilirim?**\n[Buraya tıklayarak](http://list.hyprexbotlist.ml/botlar) görebilirsiniz.
 
@@ -19,16 +19,16 @@ exports.run = async (client, message, args) => {
   
 };
 
-exports.conf = {
+exports.conf = {//hyprex
 	enabled: true,
 	guildOnly: true,
 	aliases: [],
 	permLevel: 0,
 	kategori: 'genel'
 }
-
-exports.help = {
+//hyprex
+exports.help = {//hyprex
 	name: 'yardım',
 	description: 'Sistem hakkında bilgi gösterir.',
 	usage: 'yardım'
-}
+}//hyprex

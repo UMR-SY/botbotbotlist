@@ -13,15 +13,15 @@ client.tags = require('html-tags');
 
 client.ayarlar = {
   "prefix": "/",// Botun Prefix1
-  "oauthSecret": "UJbWycw_8wD0JXEnOOHS_WPGSG6NOhuv",// Botun Secreti
-	"callbackURL":  "https://hyprex-bot-list-hyprexx.glitch.me/callback",// siteismi.glitch.me/callback şeklinde olucak
-	"kayıt": "755105588567867504",// Kayıt kanalının id si
-  "rapor": "755105588567867504",// Rapor kanalının id si
+  "oauthSecret": "secret",// Botun Secreti
+	"callbackURL":  "alanadı/callback",// siteismi.glitch.me/callback şeklinde olucak
+	"kayıt": "756149142320971889",// Kayıt kanalının id si
+  "rapor": "756149142320971889",// Rapor kanalının id si
   "renk": "#D49818"// bunu neden ekledim bende bilmiyorum isterseniz değiştirin
 };
-client.login("NzU2Nzc3MTQ0MjkzNTIzNTE3.X2Wxow.qktbvEx6LyqkIAUIbIZmhSU3H8s")// Token
+client.login("TOKEN")// Token
 process.env = {}
-process.env.TOKEN = "NzU2Nzc3MTQ0MjkzNTIzNTE3.X2Wxow.qktbvEx6LyqkIAUIbIZmhSU3H8s";// Token
+process.env.TOKEN = "TAŞAKLI TOKEN";// Token
 
 
 client.yetkililer = ["333636600032526347"]// Yetkililer
@@ -112,3 +112,5 @@ client.on("message", async message => {
 		}
 		cmd.run(client, message, args)
 }); 
+
+//hyprex
