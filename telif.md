@@ -1,0 +1,1 @@
+Altyapı Alıpda Kanalında Paylaşanları , Telif Atarım Çok Ciddiyim , Peşinizi Bırakmam | Bu Altyapı Hyprex Creative#0001 Aittir
