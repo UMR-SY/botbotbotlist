@@ -9,7 +9,7 @@ exports.run = async (client, message, args) => {
 	if (db.has('botlar')) {//hyprex
 			if (Object.keys(db.fetch('botlar')).includes(args[0]) === false)  return message.reply("ID'ini yazdığın bot sistemde yok.")
 	}
-  
+  //hyprex//hyprex
   if (db.has('botlar')) {
   if (db.has(`botlar.${args[0]}.sertifika`) === true) return message.reply("Bu ID'e sahip sertifikalı bot zaten var.")
   }
@@ -18,19 +18,19 @@ exports.run = async (client, message, args) => {
   client.channels.get(client.ayarlar.kayıt).send(`\`${message.author.tag}\` adlı yetkili tarafından \`${db.fetch(`botlar.${args[0]}.sahip`)}\` adlı kullanıcının \`${args[0]}\` ID'ine sahip \`${db.fetch(`botlar.${args[0]}.isim`)}\` adlı bota sertifika verildi.`)
 	//hyprex
   db.set(`botlar.${args[0]}.sertifika`, "Bulunuyor")
-  
+  //hyprex
 };
 //hyprex
 exports.conf = {
 	enabled: true,//hyprex
 	guildOnly: true,
-	aliases: ['sertifika-ver'],
+	aliases: ['sertifika-ver'],//hyprex
 	permLevel: 'ozel',
 	kategori: 'yetkili'
-}
+}//hyprex
 
-exports.help = {
+exports.help = {//hyprex
 	name: 'sertifika-ekle',
 	description: 'Yazılan ID\'deki botu sertifikalı yapar.',
-	usage: 'sertifika-ekle [ID]'
-}//hyprex
+	usage: 'sertifika-ekle [ID]'//hyprex
+}//hyprex//hyprex

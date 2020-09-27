@@ -3,7 +3,7 @@ const Discord = require('discord.js');//hyprex
 exports.run = async (client, message, args) => {//hyprex
   var embed = new Discord.RichEmbed()
   .setColor('RED')
-  .setAuthor("Doxy", client.user.avatarURL)  // "" 2 li tırnak yerine Bot ismi yada sunucu ismi
+  .setAuthor("Bu Altyapı HypreX Aittir", client.user.avatarURL)  // "" 2 li tırnak yerine Bot ismi yada sunucu ismi
 	.setDescription(`
 
 **Bot nasıl ekleyeceğim?**\n[Buraya tıklayarak](https://rmbotlist.glitch.me/botekle) bot ekleyebileceğiniz yere ışınlanabilirsiniz.//hyprex
@@ -13,6 +13,8 @@ exports.run = async (client, message, args) => {//hyprex
 **Sertifika ne işe yarar? Nasıl alınır?**\n[Buraya tıklayarak](http://list.hyprexbotlist.ml/sertifika) görebilirsiniz.
 
 **Kullanıcı panelinde neler yapılabilir?**\nKullanıcı panelinde sistemdeki botlarınızın profilini/başvurusunu düzenleyebilir ve botlarınızı sistemden silebilirsiniz.
+
+**By Coded hyprex#0001 | Botu Kodlayan HypreX#0001
 
 `)
   message.channel.send({embed: embed})
